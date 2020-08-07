@@ -1,0 +1,31 @@
+{
+  "name": "tiniocc",
+  "version": "0.0.1",
+  "description": "A dead simple ioc container.",
+  "keywords": [],
+  "homepage": "https://github.com/fralonra/tiniocc#readme",
+  "bugs": {
+    "url": "https://github.com/fralonra/tiniocc/issues"
+  },
+  "license": "MIT",
+  "author": "zoron (https://github.com/fralonra)",
+  "files": [],
+  "main": "dist/tiniocc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fralonra/tiniocc.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "pretest": "npm run build",
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@tsconfig/recommended": "^1.0.1",
+    "rollup": "^2.23.0",
+    "tap": "^14.10.8",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7"
+  }
+}
