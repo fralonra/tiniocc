@@ -9,14 +9,17 @@
   },
   "license": "MIT",
   "author": "zoron (https://github.com/fralonra)",
-  "files": [],
-  "main": "dist/tiniocc.js",
+  "files": [
+    "dist/*.js"
+  ],
+  "main": "dist/tiniocc.cjs.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fralonra/tiniocc.git"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run test",
     "pretest": "npm run build",
     "test": "tap test/*.js"
   },
