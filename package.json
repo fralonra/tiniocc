@@ -2,7 +2,11 @@
   "name": "tiniocc",
   "version": "0.0.2",
   "description": "A dead simple ioc container.",
-  "keywords": [],
+  "keywords": [
+    "container",
+    "di",
+    "ioc"
+  ],
   "homepage": "https://github.com/fralonra/tiniocc#readme",
   "bugs": {
     "url": "https://github.com/fralonra/tiniocc/issues"
