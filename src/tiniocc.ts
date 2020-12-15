@@ -4,7 +4,7 @@ export class IoCContainer {
   private _deps = new Array<string>();
   private _services = new Map<string, any>();
 
-  register(name: string, initializer: TInitializeFunc): IoCContainer {
+  register(this: IoCContainer, name: string, initializer: TInitializeFunc | any): IoCContainer {
     Object.defineProperty(this, name, {
       get: () => {
         if (!this._services.has(name)) {
