@@ -1,6 +1,7 @@
 # tiniocc
 
 [![npm version](https://img.shields.io/npm/v/tiniocc.svg)](https://www.npmjs.com/package/tiniocc) ![Node.js CI](https://github.com/fralonra/tiniocc/workflows/Node.js%20CI/badge.svg) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffralonra%2Ftiniocc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffralonra%2Ftiniocc?ref=badge_shield)
 
 A dead simple IoC container, with lazyload support.
 
@@ -53,3 +54,7 @@ import tiniocc from 'tiniocc'
 
 const container = tiniocc.createContainer()
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffralonra%2Ftiniocc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffralonra%2Ftiniocc?ref=badge_large)
